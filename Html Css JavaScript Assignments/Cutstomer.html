@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        background-color: aqua;
+    }
+   .form-control{
+    text-align: left;
+   }
+
+ form{
+    margin: 50px auto;
+    padding: 30px 30px;
+    max-width: 450px;
+    background-color: white;
+ }
+ .form-control input,
+ .form-control select,
+ .form-control textarea{
+    display: block;
+    padding: 10px;
+    width: 95%;
+ }
+ .form-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+ }
+ .form-control1 input {
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #24263e;
+    background-color: #40e63d;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    transition: 0.2s;
+ }
+
+ span{
+   color: red;
+   display: none;
+ }
+ 
+ 
+</style>
+
+
+
+
+</head>
+<body>
+
+    <h1 style="text-align: center;">Student Survey Form</h1>
+    
+    <form style="text-align: center;" id="form">
+        <fieldset>
+        <div class="form-control">
+        <label style="display: block;margin-bottom: 10px;" >First Name </label>
+        <input type="text" placeholder="Enter Your First Name" name="Firstname" required />
+        </div>
+        <div class="form-control">
+            <label style="display: block;margin-bottom: 10px;">Last Name </label>
+            <input type="text" placeholder="Enter Your Last Name" required />
+            </div>
+         <div class="form-control">
+        <label style="display: block;margin-bottom: 10px;">Date Of Birth</label>
+         <input type="date" required />
+         </div>
+         <div class="form-control">
+            <label style="display: block;margin-bottom: 10px;">Country</label>
+             <select style="width: 100%;" >
+                <option> </option>
+                    <option>India</option>
+                    <option>Austrila</option>
+                    <option>Indonesia</option>
+                    <option>Bangkok</option>
+                    <option>Pakisthan</option>
+                    <option>Nepal</option></select>
+             </select>
+            </div>
+             <div class="form-control">
+                <label style="display: block;margin: 20px 0px;" >Gender : <input type="checkbox" name="abc">Male  <input type="checkbox" name="hh">Female</label>
+                 
+                 </div>
+                 <div class="form-control">
+                    <label style="display: block;margin-bottom: 10px;">Profession</label>
+                     <input type="text" placeholder="Profession" required />
+                     </div>
+             <div class="form-control">
+             <label style="display: block;margin-bottom: 10px;">Email</label>
+             <input type="email" placeholder="Email"  required />
+            </div>
+            <div class="form-control">
+                <label style="display: block;margin-bottom: 10px;">Mobile Number</label>
+                <input type="number" placeholder="Number"  required />
+            </div>
+           <div class="form-control1">
+            <input type="submit" id="c"> 
+            <input type="reset" id="d">
+           </div>
+
+           
+
+               
+
+
+
+         
+
+
+
+
+
+
+
+
+        </fieldset>
+    </form>
+
+
+
+   
+  
+
+</body>
+</html>
